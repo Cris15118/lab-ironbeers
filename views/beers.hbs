@@ -1,0 +1,15 @@
+<div id="beers">
+<h3 class="titulo">CERVEZAS DEL MUNDO</h3>
+</div>
+<div id="mahou">
+{{#each this.cervezas }}
+
+{{!-- <h5>Name: {{this.name}}</h5>
+<img src="{{this.image_url}}" width="20px" alt="cerves">
+<p>Description: {{this.description}} </p>
+<p>Tagline: {{this.tagline}} </p> --}}
+{{> beerpartial this}}
+
+{{/each}}
+
+</div>
